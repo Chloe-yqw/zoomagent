@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My learning assistant</title></head>
+<body>
+<h1>My learning assistant</h1>
+<p>Ask a question using the chat button.</p>
+<!-- Add before the closing body tag. Use a public search-only key. -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@^5/dist/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@^5/dist/sidepanel.css">
+<div id="learning-assistant-sidepanel"></div>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/sidepanel-js@^5/dist/umd/index.js"></script>
+<script>
+  docsearchSidepanel({
+    container: "#learning-assistant-sidepanel",
+    appId: "ID1Y8JB08O",
+    apiKey: "77b2dca2d9d36fea33681847f98cfa5c",
+    agentId: "1363c845-619b-40d9-9110-c0abdb1ac3b3",
+    button: { variant: "floating" }
+  });
+</script>
+</body>
+</html>
